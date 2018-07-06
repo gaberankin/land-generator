@@ -1,7 +1,7 @@
 package generators
 
 /**
- * Translated from https://github.com/sebastianrosik/diamond-square-algorithm/, with additional work to support non-square fields
+ * Translated from https://github.com/sebastianrosik/diamond-square-algorithm/, with additional (partial) work to support non-square fields
  */
 
 import (
