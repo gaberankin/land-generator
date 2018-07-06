@@ -45,6 +45,8 @@ func (dsg DiamondSquareGenerator) ApplyToTerrain(t *terrain.Terrain) error {
 
 	dsg.subdivide(t, 0, 0, t.Width(), t.Length(), 1)
 
+	// TODO - at this point, the algorithm will have left untouched cells.  we need to calculate those cells and fill them in.
+
 	t.CleanBlanks()
 	return nil
 }
